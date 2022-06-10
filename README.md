@@ -1,6 +1,6 @@
 # Portfolio - My personal project
 
-- **Start Date:** 30.06.2022
+- **Start Date:** 30.05.2022
 
 ## Brief
 
@@ -14,4 +14,7 @@ This is a personal project to create a working professional portfolio website to
 - Adobe-xd
 - Figma
 
-## List of to do:
+## To do list:
+- Adding more projects
+- Adding  my CV
+-
