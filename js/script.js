@@ -26,23 +26,6 @@ navButton.addEventListener("click", () => {
   navMenu.classList.toggle("toggleNav");
 });
 
-// typewriter
-let app = document.getElementById("typeEffect");
-let typewriter = new Typewriter(app, {
-  loop: true,
-});
-
-typewriter
-  .typeString("I'm Saba Samuel")
-  .pauseFor(2500)
-  .deleteAll()
-  .typeString("I'm a front-end developer")
-  .pauseFor(2500)
-  .deleteAll()
-  .typeString("I'm Web Designer")
-  .pauseFor(2500)
-  .start();
-
 // stopping transition during resizing
 let transitionStopper;
 window.addEventListener("resize", () => {
