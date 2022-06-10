@@ -1,6 +1,6 @@
 # Portfolio - My personal project
 
-- **Start Date:** 30.06.2022
+- **Start Date:** 30.05.2022
 
 ## Brief
 
