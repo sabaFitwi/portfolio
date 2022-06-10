@@ -3,6 +3,21 @@ window.addEventListener("load", () => {
   document.querySelector(".preloader").classList.add("hidePreloader");
   document.body.style.overflow = "visible";
 });
+const elements = document.querySelectorAll(".scroll-down");
+window.addEventListener("scroll", slideUp);
+function slideUp() {
+  for (var i = 0; i < elements.length; i++) {
+    const element = elements[i];
+    const distInView =
+      element.getBoundingClientRect().top - window.innerHeight + 30;
+    if (distInView < 0) {
+      element.classList.add("inView");
+    } else {
+      element.classList.remove("inView");
+    }
+  }
+}
+slideUp();
 
 // navbar toggle
 const navButton = document.querySelector(".navbar-toggler");

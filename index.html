@@ -9,8 +9,8 @@
       content="I am Saba Samuel Fitwi. A frontend development student"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
 
     <link
       rel="stylesheet"
@@ -66,7 +66,9 @@
         </div>
 
         <ul class="social-links">
-          <li><i class="fab fa-github"></i></li>
+          <a href="https://github.com/sabaFitwi/portofolio">
+            <li><i class="fab fa-github"></i></li
+          ></a>
           <li><i class="fab fa-linkedin"></i></li>
         </ul>
 
@@ -86,11 +88,11 @@
 
       <div class="wrapper one div-container">
         <div class="column-left">
-          <img src="images/about.jpg" alt="about image" />
+          <img src="/images/about.jpg" alt="about image" />
         </div>
 
         <div class="column-right">
-          <h2>Coding Makes Me Happy</h2>
+          <h2>i am creative</h2>
           <p class="text">
             I am a full time student at "Noroff" school of technology and
             digital media. I am currently taking the course Frontend
@@ -116,36 +118,99 @@
       <div class="wrapper two">
         <div class="div-container">
           <div class="item">
-            <span>
-              <i class="fas fa-code"></i>
-            </span>
-            <h3>web design</h3>
-            <p class="text">Html, Css, Javascript</p>
+            <div>
+              <span>
+                <i class="fas fa-code"></i>
+              </span>
+              <h3>web design</h3>
+            </div>
+
+            <div class="web-icon-wrapper">
+              <div class="web-icon-flex">
+                <img
+                  alt="html icon"
+                  class="web-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                /><span class="web-icon-text">Html5</span>
+              </div>
+              <div class="web-icon-flex">
+                <img
+                  alt="css icon"
+                  class="web-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+                /><span class="web-icon-text">css3</span>
+              </div>
+              <div class="web-icon-flex">
+                <img
+                  alt="javascript icon"
+                  class="web-icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                /><span class="web-icon-text">Javascript</span>
+              </div>
+            </div>
           </div>
 
           <div class="item">
-            <span>
-              <i class="fas fa-bezier-curve"></i>
-            </span>
-            <h3>graphic design</h3>
-            <p class="text">
-              Adobe Photoshop, Adobe Illustrator, Adobe XD, Figma
-            </p>
+            <div>
+              <span>
+                <i class="fas fa-bezier-curve"></i>
+              </span>
+              <h3>graphic design</h3>
+            </div>
+
+            <div class="web-icon-wrapper">
+              <div class="web-icon-flex">
+                <img
+                  alt="html icone"
+                  class="web-icon"
+                  src="https://upload.wikimedia.org/wikipedia/commons/2/20/Photoshop_CC_icon.png"
+                /><span class="web-icon-text">Adobe Photoshop</span>
+              </div>
+              <div class="web-icon-flex">
+                <img
+                  alt="css icon"
+                  class="web-icon"
+                  src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg"
+                /><span class="web-icon-text">Adobe Illustrator</span>
+              </div>
+              <div class="web-icon-flex">
+                <img
+                  alt="javascript icon"
+                  class="web-icon"
+                  src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Adobe_XD_CC_icon.svg"
+                /><span class="web-icon-text">Adobe XD</span>
+              </div>
+              <div class="web-icon-flex">
+                <img
+                  alt="javascript icon"
+                  class="web-icon"
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+                /><span class="web-icon-text">Figma</span>
+              </div>
+            </div>
           </div>
 
           <div class="item">
-            <span>
-              <i class="fas fa-share-alt"></i>
-            </span>
-            <h3>web development</h3>
-            <p class="text">Wordpress</p>
+            <div>
+              <span>
+                <i class="fas fa-share-alt"></i>
+              </span>
+              <h3>web development</h3>
+            </div>
+            <div class="web-icon-flex">
+              <img
+                alt="javascript icon"
+                class="web-icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/0/09/Wordpress-Logo.svg"
+              /><span class="web-icon-text">Wordpress</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section class="portfolio section-bg" id="portfolio">
-      <div class="title">
+      <div class="title scroll-down fade-in-bottom">
         <h2>portfolio</h2>
         <div class="title-underline"></div>
       </div>
@@ -266,7 +331,6 @@
         </div>
       </div>
     </section>
-    <!-- end of portfolio section -->
 
     <!-- contact section -->
     <section class="contact section-bg div-container" id="contact">
@@ -314,8 +378,7 @@
           <li><i class="fab fa-linkedin"></i></li>
         </ul>
         <p class="text">
-          Copyright &copy; 2022 Saba's portfolio. All rights reserved.<br />Awesome
-          Template Design
+          Copyright &copy; 2022 Saba's portfolio. All rights reserved.
         </p>
       </div>
     </footer>
