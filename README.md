@@ -14,4 +14,7 @@ This is a personal project to create a working professional portfolio website to
 - Adobe-xd
 - Figma
 
-## List of to do:
+## To do list:
+- Adding more projects
+- Adding  my CV
+-
