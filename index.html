@@ -357,15 +357,45 @@
             </span>
           </div>
         </div>
+        <div class="contact-page_form scroll-down fade-in-bottom">
+          <form id="contactForm">
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="Name"
+              class="form"
+            />
+            <div class="contact-form-error" id="firstName-error">
+              Enter your Name
+            </div>
 
-        <form class="contact-form">
-          <div>
-            <input type="text" class="form-control" placeholder="Name" />
-            <input type="email" class="form-control" placeholder="Email" />
-          </div>
-          <textarea rows="7" placeholder="Message"></textarea>
-          <input type="submit" class="btn" value="send a message" />
-        </form>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder=" Email"
+              class="form"
+            />
+            <div class="contact-form-error" id="email-error">
+              Email address is invalid.
+            </div>
+
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message.."
+            ></textarea>
+            <div class="contact-form-error" id="message-error">
+              Enter message
+            </div>
+
+            <button class="sentBtn">
+              <span class="submit"> Send Message </span>
+            </button>
+            <div class="success"></div>
+          </form>
+        </div>
       </div>
     </section>
     <!-- end of contact section -->

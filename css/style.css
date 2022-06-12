@@ -517,7 +517,7 @@ img.web-icon {
   margin: 0 auto;
 }
 .contact .wrapper {
-  padding-bottom: 1rem;
+  padding-bottom: 16px;
 }
 .contact .wrapper .item {
   text-align: center;
@@ -525,7 +525,7 @@ img.web-icon {
   margin: 16px 0;
 }
 .contact .wrapper .item span:first-child {
-  font-size: 1.4rem;
+  font-size: 20px;
   color: var(--white);
   background: var(--black);
   display: flex;
@@ -534,29 +534,52 @@ img.web-icon {
   border-radius: 50%;
   place-items: center;
   place-content: center;
-  margin: 1.2rem auto;
+  margin: 18px auto;
 }
-.contact-form {
-  padding: 1rem 0;
-}
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
   width: 100%;
   border: none;
-  border-bottom: 1.5px solid var(--whiteSmoke);
-  font-size: 1rem;
-  padding: 0.7rem;
-  margin-bottom: 1.5rem;
+  border-bottom: 1.5px solid var(--gray);
+  font-size: 16px;
+  padding: 12px;
+  margin-bottom: 22px;
   font-family: var(--smallFont);
   outline: 0;
 }
-.contact-form input:focus,
-.contact-form textarea:focus {
-  border-color: var(--gray);
+
+label {
+  margin-top: 16px;
 }
-.contact-form input[type="submit"] {
-  cursor: pointer;
+.contact-page_form > * {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 30px;
+  border: 1px solid var(--gray-light-color);
+  background-color: var(--neutral-color);
+  border-radius: 10px;
+}
+.contact-form-error {
+  display: none;
+  color: red;
+  font-size: 14px;
+}
+.success {
+  color: green;
+  padding: 5px;
+}
+.cartSubmit {
+  align-items: center;
+}
+.invalid {
+  border: 1px solid red;
+}
+.contact-h2 {
+  text-align: center;
+  font-size: 25px;
 }
 
 /* footer */
