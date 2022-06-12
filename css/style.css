@@ -236,7 +236,7 @@ span.header-text-two {
 h1.header-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   color: var(--white);
 }
 .social-links {
@@ -488,7 +488,7 @@ img.web-icon {
   }
 }
 .inView.fade-in-bottom-2 {
-  animation: fade-in-bottom 3s ease-in-out both;
+  animation: fade-in-bottom 2.5s ease-in-out both;
 }
 @keyframes fade-in-bottom-2 {
   0% {
@@ -501,7 +501,7 @@ img.web-icon {
   }
 }
 .inView.fade-in-bottom-3 {
-  animation: fade-in-bottom 4s ease-in-out both;
+  animation: fade-in-bottom 3s ease-in-out both;
 }
 @keyframes fade-in-bottom-3 {
   0% {
