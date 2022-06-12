@@ -424,6 +424,7 @@ img.web-icon {
 }
 .portfolio-grid .item .sub-item {
   position: absolute;
+  width: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -436,6 +437,7 @@ img.web-icon {
   color: var(--white);
   text-transform: uppercase;
   font-family: var(--largeFont);
+  font-size: 12px;
 }
 .portfolio-grid .item .sub-item .text {
   color: var(--white);
@@ -524,18 +526,6 @@ img.web-icon {
   padding: 22px;
   margin: 16px 0;
 }
-.contact .wrapper .item span:first-child {
-  font-size: 20px;
-  color: var(--white);
-  background: var(--black);
-  display: flex;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  place-items: center;
-  place-content: center;
-  margin: 18px auto;
-}
 
 #contactForm input[type="text"],
 #contactForm input[type="email"],
@@ -550,18 +540,6 @@ img.web-icon {
   outline: 0;
 }
 
-label {
-  margin-top: 16px;
-}
-.contact-page_form > * {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  padding: 30px;
-  border: 1px solid var(--gray-light-color);
-  background-color: var(--neutral-color);
-  border-radius: 10px;
-}
 .contact-form-error {
   display: none;
   color: red;
@@ -571,15 +549,24 @@ label {
   color: green;
   padding: 5px;
 }
-.cartSubmit {
-  align-items: center;
-}
+
 .invalid {
   border: 1px solid red;
 }
-.contact-h2 {
-  text-align: center;
-  font-size: 25px;
+
+button.sentBtn {
+  background: var(--black);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--white);
+  cursor: pointer;
+  width: 240px;
+  height: 60px;
+  margin-top: 30px;
+}
+button.sentBtn:hover {
+  opacity: 0.7;
 }
 
 /* footer */
@@ -591,7 +578,7 @@ label {
 }
 .footer .social-links li {
   margin: 8px;
-  font-size: 16px;
+  font-size: 25px;
 }
 .footer .text {
   text-align: center;

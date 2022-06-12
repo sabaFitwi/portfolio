@@ -25,6 +25,11 @@ const navMenu = document.querySelector(".navbar-collapse");
 navButton.addEventListener("click", () => {
   navMenu.classList.toggle("toggleNav");
 });
+document.querySelectorAll(".nav-link").forEach((link) =>
+  link.addEventListener("click", () => {
+    navMenu.classList.remove("toggleNav");
+  })
+);
 
 // stopping transition during resizing
 let transitionStopper;
